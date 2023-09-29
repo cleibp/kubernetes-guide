@@ -1,6 +1,50 @@
 <h1 align="center"> 🚀 kubernetes </h1>
 
 
+
+## Kubectl Alias
+
+* *Linux*
+~~~bash
+alias k=kubectl
+~~~
+
+* *Windows*
+~~~
+Set-Alias -Name k -Value kubectl
+~~~
+
+## Cluster Info
+
+* *Get clusters*
+~~~bash
+kubectl config get-clusters
+NAME
+docker-for-desktop-cluster
+foo
+~~~
+
+
+* *Get cluster info.*
+~~~bash
+kubectl cluster-info
+Kubernetes master is running at https://172.17.0.58:8443
+~~~
+
+## Contexts
+A context is a cluster, namespace and user.
+
+* *Get a list of contexts.*
+~~~bash
+kubectl config get-contexts
+~~~
+
+
+
+
+
+
+
 ## Contatos
 
 [![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/cleibp)](https://github.com/cleibp)
